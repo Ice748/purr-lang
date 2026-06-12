@@ -42,9 +42,9 @@ r0
 ---
 
 # How to install
-1. Find the latest version on the releases page and download the `meow-lang setup.exe` file.
-2. Run this file and wait until the installation is complete.
-3. Make sure meow is installed successfully — run `meow --version` in your terminal.
+1. Find the latest version on the releases page and download the `meow-lang.zip` file.
+2. Run `install.bat` and wait until the installation is complete.
+3. Make sure meow is installed successfully — run `meow version` in your terminal.
 4. **Enjoy!**
 
 ---
