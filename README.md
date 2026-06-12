@@ -81,5 +81,12 @@ meow is an open source esolang written in pure C. Enjoy!
 # Prehistory
 I tried to create my own programming languages before, but I always got stuck on one thing: **spaces**. It was a **REALLY BIG** problem, in the standard languages you can write `print("Hello World!")` or `print ("Hello World!")`, but in my own languages it was a syntax error. So, I created **meow**! In meow, you **cannot** use spaces, every single command **can't** contain spaces.
 
+# Arni
+```
+|\__/ |  ( )
+|o o  |   ) )
+```
+This is **Arni**, mascot of meow-lang.
+
 # Support ❤️
 You can easily support meow — just **star** this repository and you will make me **REALLY happy**! :D
