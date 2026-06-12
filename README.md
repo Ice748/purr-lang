@@ -8,13 +8,15 @@ meow is an open source esolang written in pure C. Enjoy!
 ---
 
 # Features
-- **Zero-Space Syntax**: Designed to completely eliminate whitespace parsing issues.
-- **Ultra-Compact Commands**: 2 characters is the maximum command length. (`pH`, `r0`)
-- **Pure C**: Built from scratch in pure C.
-- **Open Source**: meow is a completely open-source programming language.
+- **Zero-Space Syntax**: Designed to completely **fix** whitespace parsing issues.
+- **Ultra-Compact Commands**: 2 characters is the **maximum** command length. (`pA`, `ln`, `r0`)
+- **Pure C**: Built from scratch in **pure C**.
+- **Open Source**: meow is a completely **open-source** programming language.
 
 # Examples
-`Hello World!` program:
+<details>
+<summary><code>Hello World!</code> program example:</summary>
+
 ```
 ] printing text "Hello World!"
 pH
@@ -22,17 +24,20 @@ pe
 pl
 pl
 po
-pspace
+sp
 pW
 po
 pr
 pl
 pd
 p!
+ln
 
 ] exit with code 0
 r0
 ```
+
+</details>
 
 ---
 
