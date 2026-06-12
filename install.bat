@@ -16,14 +16,6 @@ for /f "tokens=2,*" %%A in ('reg query "HKCU\Environment" /v Path 2^>nul') do (
     set "OLD_PATH=%%B"
 )
 
-echo %OLD_PATH% | find /i "C:\meow" >nul
-if %errorlevel% equ 0 (
-    echo meow is already in your PATH.
-    echo Done! Please restart your terminal.
-    pause
-    exit /b 0
-)
-
 if defined OLD_PATH (
     reg add "HKCU\Environment" /v Path /t REG_EXPAND_SZ /d "%OLD_PATH%;C:\meow" /f >nul
 ) else (
