@@ -42,10 +42,20 @@ r0
 ---
 
 # How to install
+**Windows**:
 1. Find the latest version on the releases page and download the `meow-lang.zip` file.
-2. Run `install.bat` and wait until the installation is complete.
-3. Make sure meow is installed successfully — run `meow version` in your terminal.
-4. **Enjoy!**
+2. Extract the archive and open your terminal in the extracted folder.
+3. Run `install.bat` and restart your terminal.
+4. Make sure meow is installed successfully — run `meow version` in your terminal.
+5. **Enjoy!**
+
+**Linux / macOS**:
+1. Find the latest version on the releases page and download the `meow-lang.zip` file.
+2. Extract the archive and open your terminal in the extracted folder.
+3. Make the script executable: `chmod +x install.sh`.
+4. Run the script: `./install.sh` and restart your terminal.
+5. Make sure meow is installed successfully — run `meow version` in your terminal.
+6. **Enjoy!**
 
 ---
 
