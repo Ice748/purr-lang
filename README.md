@@ -59,14 +59,20 @@ meow is an open source esolang written in pure C. Enjoy!
 
 ---
 
+# Commands list
 <details>
-  <summary><h1>Commands list</h1></summary>
+  <summary>System commands</summary>
   
-  - `p*`: print an argument.
+  - `r*`: exit with code argument.
+  
+</details>
+<details>
+  <summary>Terminal commands</summary>
+  
+  - `p*`: print the argument.
   - `sp`: print space.
   - `ln`: print `\n` symbol.
   - `tb`: print `\t` symbol.
-  - `r*`: exit with code argument.
   
 </details>
 
