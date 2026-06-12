@@ -1,7 +1,7 @@
 <div align="center">
 
 # meow
-meow is an open source esolang written in pure C. Enjoy!
+meow is an open source esolang written in pure C. Enjoy! (:
 
 </div>
 
