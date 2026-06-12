@@ -15,28 +15,28 @@ meow is an open source esolang written in pure C. Enjoy!
 
 # Examples
 <details>
-<summary><code>Hello World!</code> program example:</summary>
-
-```
-] printing text "Hello World!"
-pH
-pe
-pl
-pl
-po
-sp
-pW
-po
-pr
-pl
-pd
-p!
-ln
-
-] exit with code 0
-r0
-```
-
+  <summary><code>Hello World!</code> program example:</summary>
+  
+  ```
+  ] printing text "Hello World!"
+  pH
+  pe
+  pl
+  pl
+  po
+  sp
+  pW
+  po
+  pr
+  pl
+  pd
+  p!
+  ln
+  
+  ] exit with code 0
+  r0
+  ```
+  
 </details>
 
 ---
@@ -56,6 +56,19 @@ r0
 4. Run the script: `./install.sh` and restart your terminal.
 5. Make sure meow is installed successfully — run `meow version` in your terminal.
 6. **Enjoy!**
+
+---
+
+<details>
+  <summary><h1>Commands list</h1></summary>
+  
+  - `p*`: print an argument.
+  - `sp`: print space.
+  - `ln`: print `\n` symbol.
+  - `tb`: print `\t` symbol.
+  - `r*`: exit with code argument.
+  
+</details>
 
 ---
 
