@@ -57,7 +57,7 @@ int run_file(const char *file_name) {
       fclose(file);
       return buffer[1] - '0';
     } else {
-      printf("SYNTAX ERROR: Unknown command\nLine: %d\nCommand: %s\n", line, buffer);
+      printf("SYNTAX ERROR: Unknown command\nLine: %d\nCommand: '%s'\n", line, buffer);
     }
   }
 
