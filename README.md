@@ -41,6 +41,14 @@ r0
 
 ---
 
+# How to install
+1. Find the latest version on the releases page and download the `meow-lang setup.exe` file.
+2. Run this file and wait until the installation is complete.
+3. Make sure meow is installed successfully — run `meow --version` in your terminal.
+4. **Enjoy!**
+
+---
+
 # Prehistory
 I tried to create my own programming languages before, but I always got stuck on one thing: **spaces**. It was a **REALLY BIG** problem, in the standard languages you can write `print("Hello World!")` or `print ("Hello World!")`, but in my own languages it was a syntax error. So, I created **meow**! In meow, you **cannot** use spaces, every single command **can't** contain spaces.
 
