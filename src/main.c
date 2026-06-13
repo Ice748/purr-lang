@@ -45,7 +45,7 @@ int run_file(const char *file_name) {
       continue;
     } else if (buffer[0] == ']') {
       continue;
-    } else if (buffer[0] == 'p' && buffer[1] != '\0' && buffer[1] != ' ' && buffer[1] != '\t') {
+    } else if (buffer[0] == 'p' && buffer[1] != '\0' && buffer[1] != ' ' && buffer[1] != '\t' && strlen(buffer) == 2) {
       putchar(buffer[1]);
     } else if (strcmp(buffer, "sp") == 0) {
       putchar(' ');
@@ -53,7 +53,7 @@ int run_file(const char *file_name) {
       putchar('\n');
     } else if (strcmp(buffer, "tb") == 0) {
       putchar('\t');
-    } else if (buffer[0] == 'r') {
+    } else if (buffer[0] == 'r' && strlen(buffer) == 2) {
       fclose(file);
       return buffer[1] - '0';
     } else {
