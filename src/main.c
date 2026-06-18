@@ -5,20 +5,20 @@ int run_file(const char *file_name);
 
 int main(int argc, char *argv[]) {
   if (argc < 2) {
-    printf("Usage: meow <command> <filename>\n");
+    printf("Usage: purr <command> <filename>\n");
     return 1;
   }
 
   if (strcmp(argv[1], "run") == 0) {
     if (argc < 3) {
-      printf("Usage: meow run <filename>\n");
+      printf("Usage: purr run <filename>\n");
       return 1;
     }
-    
+
     char *file_name = argv[2];
     return run_file(file_name);
   } else if (strcmp(argv[1], "version") == 0) {
-    printf("meow-lang v0.0.1 beta\n");
+    printf("purr-lang v0.0.1 beta\n");
     return 0;
   } else {
     printf("Unknown command: %s.\n", argv[1]);

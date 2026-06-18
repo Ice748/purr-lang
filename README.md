@@ -1,7 +1,7 @@
 <div align="center">
 
-# meow
-meow is an open source esolang written in pure C. Enjoy! (:
+# purr
+purr is an open source esolang written in pure C. Enjoy! (:
 
 </div>
 
@@ -11,12 +11,12 @@ meow is an open source esolang written in pure C. Enjoy! (:
 - **Zero-Space Syntax**: Designed to completely **fix** whitespace parsing issues.
 - **Ultra-Compact Commands**: 2 characters is the **maximum** command length. (`pA`, `ln`, `r0`)
 - **Pure C**: Built from scratch in **pure C**.
-- **Open Source**: meow is a completely **open-source** programming language.
+- **Open Source**: purr is a completely **open-source** programming language.
 
 # Examples
 <details>
   <summary><code>Hello World!</code> program example:</summary>
-  
+
   ```
   ] printing text "Hello World!"
   pH
@@ -32,29 +32,29 @@ meow is an open source esolang written in pure C. Enjoy! (:
   pd
   p!
   ln
-  
+
   ] exit with code 0
   r0
   ```
-  
+
 </details>
 
 ---
 
 # How to install
 **Windows**:
-1. Find the latest version on the releases page and download the `meow-lang.zip` file.
+1. Find the latest version on the releases page and download the `purr-lang.zip` file.
 2. Extract the archive and open your terminal in the extracted folder.
 3. Run `install.bat` and restart your terminal.
-4. Make sure meow is installed successfully — run `meow version` in your terminal.
+4. Make sure purr is installed successfully — run `purr version` in your terminal.
 5. **Enjoy!**
 
 **Linux / macOS**:
-1. Find the latest version on the releases page and download the `meow-lang.zip` file.
+1. Find the latest version on the releases page and download the `purr-lang.zip` file.
 2. Extract the archive and open your terminal in the extracted folder.
 3. Make the script executable: `chmod +x install.sh`.
 4. Run the script: `./install.sh` and restart your terminal.
-5. Make sure meow is installed successfully — run `meow version` in your terminal.
+5. Make sure purr is installed successfully — run `purr version` in your terminal.
 6. **Enjoy!**
 
 ---
@@ -62,31 +62,31 @@ meow is an open source esolang written in pure C. Enjoy! (:
 # Command list
 <details>
   <summary>System commands</summary>
-  
+
   - `r*`: exit with provided code.
-  
+
 </details>
 <details>
   <summary>Terminal commands</summary>
-  
+
   - `p*`: print the argument.
   - `sp`: print space.
   - `ln`: print `\n` character.
   - `tb`: print `\t` character.
-  
+
 </details>
 
 ---
 
 # Prehistory
-I tried to create my own programming languages before, but I always got stuck on one thing: **spaces**. It was a **REALLY BIG** problem, in the standard languages you can write `print("Hello World!")` or `print ("Hello World!")`, but in my own languages it was a syntax error. So, I created **meow**! In meow, you **cannot** use spaces, every single command **can't** contain spaces.
+I tried to create my own programming languages before, but I always got stuck on one thing: **spaces**. It was a **REALLY BIG** problem, in the standard languages you can write `print("Hello World!")` or `print ("Hello World!")`, but in my own languages it was a syntax error. So, I created **purr**! In purr, you **cannot** use spaces, every single command **can't** contain spaces.
 
 # Arni
 ```
 |\__/ |  ( )
 |o o  |   ) )
 ```
-This is **Arni**, mascot of meow-lang.
+This is **Arni**, mascot of purr-lang.
 
 # Support ❤️
-You can easily support meow — just **star** this repository and you will make me **REALLY happy**! :D
+You can easily support purr — just **star** this repository and you will make me **REALLY happy**! :D

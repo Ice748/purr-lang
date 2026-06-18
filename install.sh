@@ -1,16 +1,16 @@
 #!/bin/bash
-echo "Installing meow-lang..."
+echo "Installing purr-lang..."
 
-if [ ! -f "meow" ]; then
-    echo "Error: 'meow' executable not found in this folder!"
+if [ ! -f "purr" ]; then
+    echo "Error: 'purr' executable not found in this folder!"
     exit 1
 fi
 
 mkdir -p "$HOME/.local/bin"
 
-cp meow "$HOME/.local/bin/meow"
+cp purr "$HOME/.local/bin/purr"
 
-chmod +x "$HOME/.local/bin/meow"
+chmod +x "$HOME/.local/bin/purr"
 
 if [[ ":$PATH:" != *":$HOME/.local/bin:"* ]]; then
     if [ -f "$HOME/.bashrc" ]; then
