@@ -1,5 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 #include <string.h>
+
+#if defined(_WIN32) || defined(_WIN64)
+    #include <windows.h>
+#else
+    #define _POSIX_C_SOURCE 199309L
+    #include <time.h>
+#endif
 
 int run_file(const char *file_name);
 
@@ -53,6 +62,22 @@ int run_file(const char *file_name) {
       putchar('\n');
     } else if (strcmp(buffer, "tb") == 0) {
       putchar('\t');
+    } else if (strcmp(buffer, "cl") == 0) { 
+      #if defined(_WIN_32) || defined(_WIN_64)
+        system("cls");
+      #else
+        system("clear");
+      #endif
+    } else if (buffer[0] == 's' && strlen(buffer) == 2) {
+      size_t time = pow(10, buffer[1] - '0');
+      #if defined(_WIN32) || defined(_WIN64)
+        Sleep((DWORD)time);
+      #else
+        struct timespec ts;
+        ts.tv_sec = time / 1000;
+        ts.tv_nsec = (time % 1000) * 1000000;
+        nanosleep(&ts, NULL);
+      #endif
     } else if (buffer[0] == 'r' && strlen(buffer) == 2) {
       fclose(file);
       return buffer[1] - '0';
