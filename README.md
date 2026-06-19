@@ -62,18 +62,20 @@ purr is an open source esolang written in pure C. Enjoy! (:
 # Command list
 <details>
   <summary>System commands</summary>
-
+  
+  - `s*`: sleep 10^provided argument.
   - `r*`: exit with provided code.
-
+  
 </details>
 <details>
   <summary>Terminal commands</summary>
-
+  
   - `p*`: print the argument.
   - `sp`: print space.
   - `ln`: print `\n` character.
   - `tb`: print `\t` character.
-
+  - `cl`: clear console.
+  
 </details>
 
 ---
