@@ -39,7 +39,7 @@ See more examples on [examples](examples/)
 
 ## Quick Start
 **Download**:
-1. Open the [Releases](releases) page.
+1. Open the [Releases](https://github.com/Ice748/purr-lang/releases) page.
 2. Find the latest version.
 3. Download the **executable file**.
 4. Add this file to PATH.
