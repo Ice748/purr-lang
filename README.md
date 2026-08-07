@@ -22,7 +22,7 @@ pH pe pl pl po sp pW po pr pl pd p! ln
 pC pa pl pc pu pl pa pt po pr sp pi pn sp pp pu pr pr ln ln
 
 [Input the 1st & 2nd numbers]
-oP pl pe pa ps pe sp pe pn pt pe pr sp pt ph pe sp p1 ps pt sp pn pu pm pb pe pr p: sp i0
+pP pl pe pa ps pe sp pe pn pt pe pr sp pt ph pe sp p1 ps pt sp pn pu pm pb pe pr p: sp i0
 pP pl pe pa ps pe sp pe pn pt pe pr sp pt ph pe sp p2 pn pd sp pn pu pm pb pe pr p: sp i1 ln
 
 [Calculating the result]
